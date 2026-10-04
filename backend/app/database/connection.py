@@ -1,13 +1,28 @@
+import os
+
+from dotenv import load_dotenv
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
+
+
+# =========================================================
+# LOAD ENVIRONMENT VARIABLES
+# =========================================================
+
+load_dotenv()
 
 
 # =========================================================
 # DATABASE CONFIGURATION
 # =========================================================
 
-DATABASE_URL = "postgresql://postgres:2059@localhost:5432/greenchain"
+DATABASE_URL = os.getenv("DATABASE_URL")
 
+if not DATABASE_URL:
+    raise RuntimeError(
+        "DATABASE_URL is not configured. "
+        "Please check the backend .env file."
+    )
 
 
 # =========================================================
