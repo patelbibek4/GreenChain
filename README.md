@@ -1,4 +1,4 @@
-\# 🌱 GreenChain
+\# GreenChain
 
 
 
@@ -14,11 +14,11 @@ shopping experience.
 
 
 
-\## 🚀 Features
+\## Features
 
 
 
-\### 👤 Customer
+\### Customer
 
 \- Registration and login
 
@@ -50,7 +50,7 @@ shopping experience.
 
 
 
-\### 👨‍🌾 Farmer
+\## Farmer
 
 \- Farmer registration and login
 
@@ -72,7 +72,7 @@ shopping experience.
 
 
 
-\### 👑 Admin
+\### Admin
 
 \- Admin dashboard
 
@@ -86,7 +86,7 @@ shopping experience.
 
 
 
-\## 🛠️ Technology Stack
+\##  Technology Stack
 
 
 
@@ -132,7 +132,7 @@ shopping experience.
 
 
 
-\## 📁 Project Structure
+\## Project Structure
 
 
 
